@@ -1,0 +1,48 @@
+:root {
+  color: #17212b;
+  background: #f4f1ea;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2rem;
+}
+
+.site-header {
+  border-bottom: 3px solid #e07838;
+  margin-bottom: 2rem;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  box-sizing: border-box;
+  margin: 0.5rem 0 1.5rem;
+  max-width: 32rem;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#activities-list {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.activity-card {
+  background: #fff;
+  border-left: 5px solid #2d7d78;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}

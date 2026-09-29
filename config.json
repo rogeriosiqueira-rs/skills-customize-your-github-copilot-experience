@@ -64,6 +64,30 @@
       "title": "Building REST APIs with FastAPI",
       "description": "Building REST APIs with endpoints, validation, and interactive documentation using FastAPI.",
       "path": "assignments/fastapi-rest-apis"
+    },
+    {
+      "id": "web-api-dashboard",
+      "title": "Interactive Web Interfaces with JavaScript",
+      "description": "Creating interactive web interfaces with native HTML, CSS, and JavaScript that consume REST API data.",
+      "path": "assignments/web-api-dashboard",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter HTML",
+          "file": "starter-code.html",
+          "type": "html"
+        },
+        {
+          "name": "Starter CSS",
+          "file": "styles.css",
+          "type": "css"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "script.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }

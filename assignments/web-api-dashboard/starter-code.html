@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painel de atividades</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Painel de atividades</h1>
+      <p>Encontre uma atividade para participar.</p>
+    </header>
+
+    <main>
+      <form id="search-form" role="search">
+        <label for="search-input">Buscar atividades</label>
+        <input id="search-input" name="search" type="search" placeholder="Digite um nome ou descrição">
+      </form>
+
+      <p id="status-message" role="status" aria-live="polite">Carregando atividades...</p>
+      <section aria-labelledby="activities-heading">
+        <h2 id="activities-heading">Atividades disponíveis</h2>
+        <ul id="activities-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
